@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Secret Message Delivery</h1>
+        <p>Enter the secret code to reveal the message:</p>
+        <input type="text" id="codeInput" placeholder="Enter code here">
+        <button onclick="revealMessage()">Submit</button>
+        <div id="message" class="hidden">
+            <h2>Your Secret Message:</h2>
+            <p id="secretMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
